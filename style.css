@@ -1,0 +1,78 @@
+body {
+	font-family: Arial,serif;
+	background-color: darkgrey;
+	background-image: url("image/ehl.jpg");
+
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h1	{
+	font-weight: bolder;
+	font-size: 50px;
+	color: black;
+}
+h2 {
+	color: black;
+}
+
+img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+ul li{
+	list-style: none;
+	padding: 0px;
+
+}
+ul {
+	padding: 0px;
+}
+i {
+	text-decoration: none;
+	color: black;
+	font-size: 50px ;
+
+}
+.container{
+	margin: 0 auto;
+
+}
+.welcome{
+	margin: 0 auto;
+
+}
+.card-white{
+	background: whitesmoke;
+	margin: 24px auto;
+	/*margin-top: 24px;*/
+	border-radius: 10px;
+	box-shadow: 2px 2px 0px;
+	font-size: 15px;
+	width: 600px;
+
+}
+.EHL{
+	background: lightgrey;
+	border-radius: 10px;
+	font-size: 20px;
+	transition: transform 2s;
+}
+.EHL:hover{
+	transform: rotate(360deg);
+
+}
+
+@media (max-width: 600px){
+	.container{
+		width: 500px;
+		margin: 0 auto;
+	}
+	.card-white{
+		width: 400px;
+		margin: 0 auto;
+
+	}
+}
